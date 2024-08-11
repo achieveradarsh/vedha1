@@ -6,7 +6,7 @@ document.getElementById('submit-btn').addEventListener('click', async function()
     }
 
     try {
-        const response = await fetch('https://vedha-mo57.onrender.com/get-disease-info', {
+        const response = await fetch('https://vedha1.onrender.com/get-disease-info', {  // Make sure this URL is correct
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
